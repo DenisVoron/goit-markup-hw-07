@@ -111,24 +111,6 @@ img {
   display: flex;
 }
 
-/*текст кнопка главная*/
-.hero-btn {
-  padding: 8px 30px;
-
-  font-family: var(--main-font);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-
-  color: var(--accent-txt-cl);
-}
-
 /*лого*/
 .logo {
   font-family: var(--logo-font);
@@ -211,34 +193,32 @@ img {
   align-items: center;
   margin-left: auto;
 }
-.contact-list .link {
-  display: flex;
-  align-items: center;
-
-  transition-property: color;
-  transition-duration: var(--time-change);
-  transition-timing-function: var(--time-steps);
-  transition-delay: 100ms;
-}
-
-.contact-list .link:hover,
-.contact-list .link:focus {
-  
-  color: var(--secondary-txt-cl);
-}
 .contact-list__item:first-child {
   margin-right: 50px;
 }
-.contact-list__item .link {
+
+.contact-link {
+  display: flex;
+  align-items: center;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: var(--primary-txt-cl);
+
+  transition-property: color;
+  transition-duration: var(--time-change);
+  transition-timing-function: var(--time-steps);
+  transition-delay: 100ms;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--secondary-txt-cl);
 }
 
-.contact-list .contact-icon {
+.contact-link__icon {
   margin-right: 10px;
   fill: currentColor;
 }
@@ -260,6 +240,7 @@ img {
   background-color: var(--main-bg-cl);
 }
 
+/*главный заголовок*/
 .hero-title {
   width: 696px;
   margin-left: auto;
@@ -277,13 +258,29 @@ img {
 
   color: var(--accent-txt-cl);
 }
+
+/*главная кнопка*/
 .hero-btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
   margin-left: auto;
   margin-right: auto;
+  padding: 8px 30px;
 
-  background-color: var(--secondary-txt-cl);
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
 
+  border-radius: 4px;
   border: transparent;
+
+  letter-spacing: 0.06em;
+
+  color: var(--accent-txt-cl);
+  background-color: var(--secondary-txt-cl);
 }
 
 /*оформлєння інфо-блок*/
@@ -878,13 +875,13 @@ img {
 }
 
 .address-link-contact {
-  font-family: var(--main-font);
-  font-style: normal;
+  /*font-family: var(--main-font);
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03em;*/
 
   color: var(--footer-txt-cl);
 }
