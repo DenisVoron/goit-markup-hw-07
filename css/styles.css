@@ -107,7 +107,7 @@ img {
   border-bottom: 1px solid var(--top-border-cl);
   background-color: var(--accent-txt-cl);
 }
-.header-container {
+.header__container {
   display: flex;
 }
 
@@ -134,7 +134,7 @@ img {
 }
 
 /*header навигация*/
-.header-nav {
+.header__nav {
   display: flex;
   align-items: center;
 }
@@ -222,16 +222,8 @@ img {
   margin-right: 10px;
   fill: currentColor;
 }
-
+/*блок герой*/
 .hero {
-  max-width: 1600px;
-  max-height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-
-  padding-top: 200px;
-  padding-bottom: 200px;
-
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero/hero-img.jpg);
 
@@ -239,9 +231,18 @@ img {
   background-position: center;
   background-color: var(--main-bg-cl);
 }
+.page__hero {
+  max-width: 1600px;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 
 /*главный заголовок*/
-.hero-title {
+.hero__title {
   width: 696px;
   margin-left: auto;
   margin-right: auto;
@@ -260,7 +261,7 @@ img {
 }
 
 /*главная кнопка*/
-.hero-btn {
+.hero__btn {
   display: flex;
   align-items: center;
   text-align: center;
@@ -287,13 +288,14 @@ img {
 .benefits-list {
   display: flex;
 }
-.benefits-item {
+.benefits-list__item {
   flex-basis: calc(100% / 4);
   margin-right: 30px;
 }
-.benefits-item:last-child {
+.benefits-list__item:last-child {
   margin-right: 0px;
 }
+
 .benefits-icon-wrapper {
   display: flex;
   justify-content: center;
@@ -817,6 +819,7 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+
 .mailing-txt {
   margin-right: 10px;
   
@@ -882,7 +885,7 @@ img {
   line-height: 1.71;
 
   letter-spacing: 0.03em;*/
-
+  font-style: normal;
   color: var(--footer-txt-cl);
 }
 
