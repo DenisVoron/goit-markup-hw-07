@@ -295,41 +295,50 @@ img {
 .benefits-list__item:last-child {
   margin-right: 0px;
 }
-
-.benefits-icon-wrapper {
-  display: flex;
-  justify-content: center;
-
-  align-items: center;
-  margin-bottom: 30px;
-
-  width: 270px;
-  height: 120px;
-
+/*icon about*/
+.benefits-substrate {
   background: var(--section-bg-cl);
   border-radius: 4px;
 }
-
-.benefits-icon {
+.benefits-substrate__form {
+  display: flex;
+  justify-content: center;
+  
+  align-items: center;
+  margin-bottom: 30px;
+  
+  width: 270px;
+  height: 120px;
+}
+.benefits-substrate__icon {
   width: 70px;
   height: 70px;
 }
 
-.benefits-title {
-  margin-bottom: 10px;
+/*text about*/
 
+/*общий блок подзаголовков*/
+.subtitle {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-
   color: var(--title-txt-cl);
 }
-.benefits-descr {
-  font-weight: 400;
-  font-size: 14px;
 
+.subtitle__benefits {
+  margin-bottom: 10px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/*общий блок описания*/
+.descr {
+  font-weight: 400;
+}
+/*стили для блок описания*/
+.descr__benefits {
+  font-size: 14px;
   line-height: 1.71;
 }
 
@@ -878,13 +887,6 @@ img {
 }
 
 .address-link-contact {
-  /*font-family: var(--main-font);
-
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-
-  letter-spacing: 0.03em;*/
   font-style: normal;
   color: var(--footer-txt-cl);
 }
