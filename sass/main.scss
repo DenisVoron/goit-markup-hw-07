@@ -1,1 +1,20 @@
-@import 'utils/vars';
+//peremennye
+@import './variables/variables';
+
+//visually-hidden
+@import './utils/visually-hidden';
+
+//base styles
+@import './base/base';
+
+//components
+@import './components/bth';
+@import './components/container';
+@import './base/common';
+@import './components/logo';
+@import './components/header-logo';
+@import './components/header';
+@import './components/header-contact';
+@import './components/hero';
+@import './components/benefits';
+@import './components/about';
