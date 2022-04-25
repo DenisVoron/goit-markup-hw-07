@@ -127,11 +127,10 @@ img {
   transition-duration: var(--time-change);
   transition-timing-function: var(--time-steps);
   transition-delay: 100ms;
+  /*фокус-ховер кнопки фильтр*/
 }
 
-/*фокус-ховер кнопки фильтр*/
-.work-btn:hover,
-.work-btn:focus {
+.work-btn:hover, .work-btn:focus {
   background-color: var(--secondary-txt-cl);
   color: var(--accent-txt-cl);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -255,8 +254,7 @@ img {
   transition-delay: 100ms;
 }
 
-.nav-list__link:hover,
-.nav-list__link:focus {
+.nav-list__link:hover, .nav-list__link:focus {
   color: var(--secondary-txt-cl);
 }
 
@@ -296,8 +294,7 @@ img {
   transition-delay: 100ms;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.contact-link:hover, .contact-link:focus {
   color: var(--secondary-txt-cl);
 }
 
@@ -615,8 +612,7 @@ img {
   transition-delay: 100ms;
 }
 
-.work-link:hover,
-.work-link:focus {
+.work-link:hover, .work-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -761,8 +757,7 @@ img {
   transition-delay: 100ms;
 }
 
-.footer-social-link:hover,
-.footer-social-link:focus {
+.footer-social-link:hover, .footer-social-link:focus {
   background-color: var(--secondary-txt-cl);
 }
 

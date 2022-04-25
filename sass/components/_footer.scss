@@ -4,18 +4,19 @@
     padding-bottom: 60px;
 
     background-color: var(--main-bg-cl);
-}
 
-.footer-container {
-    display: flex;
-    align-items: baseline;
+    &-container {
+        display: flex;
+        align-items: baseline;
+    }
 }
 
 .address-wrapper {
     flex-grow: 1;
-}
-.address-wrapper:not(:last-child) {
-    margin-right: 70px;
+
+    &:not(:last-child) {
+        margin-right: 70px;
+    }
 }
 
 /*соц мережі футер*/
@@ -36,21 +37,22 @@
 
 .address-item {
     margin-bottom: 9px;
-}
-.address-item:last-child {
-    margin-bottom: 0px;
-}
 
-.address-item .address-link {
-    font-family: var(--main-font);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-
-    letter-spacing: 0.03em;
-
-    color: var(--accent-txt-cl);
+    &:last-child {
+        margin-bottom: 0px;
+    }
+    
+    & .address-link {
+        font-family: var(--main-font);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+    
+        letter-spacing: 0.03em;
+    
+        color: var(--accent-txt-cl);
+    }
 }
 
 .address-link-contact {
@@ -83,9 +85,9 @@
     transition-duration: var(--time-change);
     transition-timing-function: var(--time-steps);
     transition-delay: 100ms;
-}
 
-.footer-social-link:hover,
-.footer-social-link:focus {
-    background-color: var(--secondary-txt-cl);
+    &:hover,
+    &:focus {
+        background-color: var(--secondary-txt-cl);
+    }
 }

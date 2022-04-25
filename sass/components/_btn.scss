@@ -43,17 +43,17 @@
     transition-duration: var(--time-change);
     transition-timing-function: var(--time-steps);
     transition-delay: 100ms;
-}
 
-/*фокус-ховер кнопки фильтр*/
-.work-btn:hover,
-.work-btn:focus {
-    background-color: var(--secondary-txt-cl);
-    color: var(--accent-txt-cl);
-
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-        0px 1px 2px rgba(0, 0, 0, 0.08),
-        0px 2px 2px rgba(0, 0, 0, 0.12);
+    /*фокус-ховер кнопки фильтр*/
+    &:hover,
+    &:focus {
+        background-color: var(--secondary-txt-cl);
+        color: var(--accent-txt-cl);
+    
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+            0px 1px 2px rgba(0, 0, 0, 0.08),
+            0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
 }
 
 .mailing-button {
