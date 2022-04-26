@@ -196,11 +196,11 @@ img {
 }
 
 /*header logo*/
-.header-logo {
+.header__logo {
   margin-right: 93px;
 }
 
-.header-logo__accent {
+.logo-accent {
   letter-spacing: 0.03em;
   color: var(--title-txt-cl);
 }
@@ -215,13 +215,13 @@ img {
   height: 80px;
   border-bottom: 1px solid var(--top-border-cl);
   background-color: var(--accent-txt-cl);
+  /*header навигация*/
 }
 
 .header__container {
   display: flex;
 }
 
-/*header навигация*/
 .header__nav {
   display: flex;
   align-items: center;
@@ -305,22 +305,18 @@ img {
 
 /*блок герой*/
 .hero {
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-img.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--main-bg-cl);
-}
-
-.page__hero {
   max-width: 1600px;
   max-height: 600px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--main-bg-cl);
 }
 
-/*главный заголовок*/
 .hero__title {
   width: 696px;
   margin-left: auto;
@@ -339,6 +335,9 @@ img {
 /*оформлєння інфо-блок*/
 .benefits-list {
   display: flex;
+  /*icon about*/
+  /*text about*/
+  /*стили для блок описания*/
 }
 
 .benefits-list__item {
@@ -350,36 +349,30 @@ img {
   margin-right: 0px;
 }
 
-/*icon about*/
-.benefits-substrate {
-  background: var(--section-bg-cl);
-  border-radius: 4px;
-}
-
-.benefits-substrate__form {
+.benefits-list__container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
   width: 270px;
   height: 120px;
+  background: var(--section-bg-cl);
+  border-radius: 4px;
 }
 
-.benefits-substrate__icon {
+.benefits-list__icon {
   width: 70px;
   height: 70px;
 }
 
-/*text about*/
-.subtitle__benefits {
+.benefits-list__title {
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
-/*стили для блок описания*/
-.descr__benefits {
+.benefits-list__description {
   font-size: 14px;
   line-height: 1.71;
 }
@@ -396,19 +389,19 @@ img {
 
 .about {
   padding-top: 0px;
+  /*мітка о нас*/
 }
 
 .about-list {
   display: flex;
 }
 
-.about-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-/*мітка о нас*/
 .about-item {
   position: relative;
+}
+
+.about-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .about-label {
@@ -507,8 +500,7 @@ img {
   transition-delay: 100ms;
 }
 
-.social-link:hover,
-.social-link:focus {
+.social-link:hover, .social-link:focus {
   background-color: var(--secondary-txt-cl);
   fill: var(--accent-txt-cl);
 }
@@ -550,8 +542,7 @@ img {
   transition-delay: 100ms;
 }
 
-.client-link:hover,
-.client-link:focus {
+.client-link:hover, .client-link:focus {
   fill: var(--secondary-txt-cl);
   border: 1px solid var(--secondary-txt-cl);
 }

@@ -23,10 +23,10 @@
     transition-duration: var(--time-change);
     transition-timing-function: var(--time-steps);
     transition-delay: 100ms;
-}
 
-.social-link:hover,
-.social-link:focus {
-    background-color: var(--secondary-txt-cl);
-    fill: var(--accent-txt-cl)
+    &:hover,
+    &:focus {
+        background-color: var(--secondary-txt-cl);
+        fill: var(--accent-txt-cl)
+    }
 }

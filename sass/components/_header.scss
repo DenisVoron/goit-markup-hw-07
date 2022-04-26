@@ -11,15 +11,16 @@
 
     border-bottom: 1px solid var(--top-border-cl);
     background-color: var(--accent-txt-cl);
-}
 
-.header__container {
-    display: flex;
-}
-/*header навигация*/
-.header__nav {
-    display: flex;
-    align-items: center;
+    &__container {
+        display: flex;
+    }
+    
+    /*header навигация*/
+    &__nav {
+        display: flex;
+        align-items: center;
+    }
 }
 
 .nav-list {

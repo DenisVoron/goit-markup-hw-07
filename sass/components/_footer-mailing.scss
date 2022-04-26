@@ -35,19 +35,19 @@
 
     background-color: var(--main-bg-cl);
     outline: none;
-}
 
-.form-input::placeholder {
-    font-family: var(--main-font);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-
-    letter-spacing: 0.03em;
-
-    color: var(--footer-txt-cl);
-}
-
-.form-input:focus {
-    border-color: var(--secondary-txt-cl);
+    &::placeholder {
+        font-family: var(--main-font);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+    
+        letter-spacing: 0.03em;
+    
+        color: var(--footer-txt-cl);
+    }
+    
+    &:focus {
+        border-color: var(--secondary-txt-cl);
+    }
 }

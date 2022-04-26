@@ -33,12 +33,12 @@
     transition-duration: var(--time-change);
     transition-timing-function: var(--time-steps);
     transition-delay: 100ms;
-}
 
-.client-link:hover,
-.client-link:focus {
-    fill: var(--secondary-txt-cl);
-    border: 1px solid var(--secondary-txt-cl);
+    &:hover,
+    &:focus {
+        fill: var(--secondary-txt-cl);
+        border: 1px solid var(--secondary-txt-cl);
+    }
 }
 
 .client-item:not(:last-child) {
