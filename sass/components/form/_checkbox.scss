@@ -24,7 +24,7 @@
     fill: var(--accent-txt-cl);
 }
 
-.checkbox:checked+.icon-mark {
+.checkbox:checked + .icon-mark {
     background-color: var(--secondary-txt-cl);
     border-radius: 2px;
     border-color: transparent;

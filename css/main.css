@@ -92,6 +92,10 @@ img {
   max-width: 100%;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 /*главная кнопка*/
 .hero__btn {
   display: flex;
@@ -570,10 +574,6 @@ img {
   margin-right: 8px;
 }
 
-.pointer {
-  cursor: pointer;
-}
-
 .work-list-pic {
   display: flex;
   flex-wrap: wrap;
@@ -895,8 +895,7 @@ img {
   border-radius: 4px;
 }
 
-.call-input:focus + .icon-call,
-.call-input:focus {
+.call-input:focus + .icon-call, .call-input:focus {
   fill: var(--secondary-txt-cl);
   border-color: var(--secondary-txt-cl);
 }
@@ -931,15 +930,13 @@ img {
   top: 8px;
   width: 30px;
   height: 30px;
-  cursor: pointer;
   background-color: var(--accent-txt-cl);
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   border-radius: 50%;
 }
 
-.clos-modal:hover,
-.clos-modal:focus {
+.clos-modal:hover, .clos-modal:focus {
   fill: var(--secondary-txt-cl);
 }
 
@@ -953,7 +950,6 @@ img {
   border: transparent;
   margin-left: auto;
   margin-right: auto;
-  cursor: pointer;
   width: 200px;
   height: 50px;
   font-family: var(--main-font);
